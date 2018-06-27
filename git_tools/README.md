@@ -6,7 +6,7 @@
 
 在~/.bash_profile 中添加配置，使之生效即可
 
-[[ -s "~/git-completion.bash" ]] && source "~/git-completion.bash"
+[[ -s ~/git-completion.bash ]] && source ~/git-completion.bash
 
 配置后， 执行source ~/.bash_profile 重新加载配置就ok了
 
